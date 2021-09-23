@@ -18,6 +18,25 @@
 		FAC8B92026FC962B00F4590F /* AnimalSoundsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8B91F26FC962B00F4590F /* AnimalSoundsTests.m */; };
 		FAC8B92A26FC962B00F4590F /* AnimalSoundsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8B92926FC962B00F4590F /* AnimalSoundsUITests.m */; };
 		FAC8B92C26FC962B00F4590F /* AnimalSoundsUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8B92B26FC962B00F4590F /* AnimalSoundsUITestsLaunchTests.m */; };
+		FAC8B93E26FC96B900F4590F /* Horse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B93826FC96B900F4590F /* Horse.mp3 */; };
+		FAC8B93F26FC96B900F4590F /* Horse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B93826FC96B900F4590F /* Horse.mp3 */; };
+		FAC8B94026FC96B900F4590F /* Horse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B93826FC96B900F4590F /* Horse.mp3 */; };
+		FAC8B94126FC96B900F4590F /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B93926FC96B900F4590F /* Cat.wav */; };
+		FAC8B94226FC96B900F4590F /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B93926FC96B900F4590F /* Cat.wav */; };
+		FAC8B94326FC96B900F4590F /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B93926FC96B900F4590F /* Cat.wav */; };
+		FAC8B94426FC96B900F4590F /* Pig.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B93A26FC96B900F4590F /* Pig.wav */; };
+		FAC8B94526FC96B900F4590F /* Pig.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B93A26FC96B900F4590F /* Pig.wav */; };
+		FAC8B94626FC96B900F4590F /* Pig.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B93A26FC96B900F4590F /* Pig.wav */; };
+		FAC8B94726FC96B900F4590F /* Sheep.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B93B26FC96B900F4590F /* Sheep.wav */; };
+		FAC8B94826FC96B900F4590F /* Sheep.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B93B26FC96B900F4590F /* Sheep.wav */; };
+		FAC8B94926FC96B900F4590F /* Sheep.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B93B26FC96B900F4590F /* Sheep.wav */; };
+		FAC8B94A26FC96B900F4590F /* Dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B93C26FC96B900F4590F /* Dog.wav */; };
+		FAC8B94B26FC96B900F4590F /* Dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B93C26FC96B900F4590F /* Dog.wav */; };
+		FAC8B94C26FC96B900F4590F /* Dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B93C26FC96B900F4590F /* Dog.wav */; };
+		FAC8B94D26FC96B900F4590F /* Frog.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B93D26FC96B900F4590F /* Frog.wav */; };
+		FAC8B94E26FC96B900F4590F /* Frog.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B93D26FC96B900F4590F /* Frog.wav */; };
+		FAC8B94F26FC96B900F4590F /* Frog.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B93D26FC96B900F4590F /* Frog.wav */; };
+		FAC8B95226FCA27E00F4590F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC8B95126FCA27E00F4590F /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +75,13 @@
 		FAC8B92526FC962B00F4590F /* AnimalSoundsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalSoundsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC8B92926FC962B00F4590F /* AnimalSoundsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimalSoundsUITests.m; sourceTree = "<group>"; };
 		FAC8B92B26FC962B00F4590F /* AnimalSoundsUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimalSoundsUITestsLaunchTests.m; sourceTree = "<group>"; };
+		FAC8B93826FC96B900F4590F /* Horse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Horse.mp3; sourceTree = "<group>"; };
+		FAC8B93926FC96B900F4590F /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cat.wav; sourceTree = "<group>"; };
+		FAC8B93A26FC96B900F4590F /* Pig.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Pig.wav; sourceTree = "<group>"; };
+		FAC8B93B26FC96B900F4590F /* Sheep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sheep.wav; sourceTree = "<group>"; };
+		FAC8B93C26FC96B900F4590F /* Dog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dog.wav; sourceTree = "<group>"; };
+		FAC8B93D26FC96B900F4590F /* Frog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Frog.wav; sourceTree = "<group>"; };
+		FAC8B95126FCA27E00F4590F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC8B95226FCA27E00F4590F /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +117,7 @@
 				FAC8B91E26FC962B00F4590F /* AnimalSoundsTests */,
 				FAC8B92826FC962B00F4590F /* AnimalSoundsUITests */,
 				FAC8B8FE26FC962700F4590F /* Products */,
+				FAC8B95026FCA27D00F4590F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +141,12 @@
 				FAC8B90626FC962700F4590F /* ViewController.h */,
 				FAC8B90726FC962700F4590F /* ViewController.m */,
 				FAC8B90926FC962700F4590F /* Main.storyboard */,
+				FAC8B93926FC96B900F4590F /* Cat.wav */,
+				FAC8B93C26FC96B900F4590F /* Dog.wav */,
+				FAC8B93D26FC96B900F4590F /* Frog.wav */,
+				FAC8B93826FC96B900F4590F /* Horse.mp3 */,
+				FAC8B93A26FC96B900F4590F /* Pig.wav */,
+				FAC8B93B26FC96B900F4590F /* Sheep.wav */,
 				FAC8B90F26FC962B00F4590F /* Assets.xcassets */,
 				FAC8B91126FC962B00F4590F /* LaunchScreen.storyboard */,
 				FAC8B91426FC962B00F4590F /* Info.plist */,
@@ -137,6 +171,14 @@
 				FAC8B92B26FC962B00F4590F /* AnimalSoundsUITestsLaunchTests.m */,
 			);
 			path = AnimalSoundsUITests;
+			sourceTree = "<group>";
+		};
+		FAC8B95026FCA27D00F4590F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAC8B95126FCA27E00F4590F /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,9 +284,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC8B93E26FC96B900F4590F /* Horse.mp3 in Resources */,
+				FAC8B94126FC96B900F4590F /* Cat.wav in Resources */,
 				FAC8B91326FC962B00F4590F /* LaunchScreen.storyboard in Resources */,
+				FAC8B94426FC96B900F4590F /* Pig.wav in Resources */,
+				FAC8B94D26FC96B900F4590F /* Frog.wav in Resources */,
 				FAC8B91026FC962B00F4590F /* Assets.xcassets in Resources */,
+				FAC8B94A26FC96B900F4590F /* Dog.wav in Resources */,
 				FAC8B90B26FC962700F4590F /* Main.storyboard in Resources */,
+				FAC8B94726FC96B900F4590F /* Sheep.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +300,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC8B94526FC96B900F4590F /* Pig.wav in Resources */,
+				FAC8B93F26FC96B900F4590F /* Horse.mp3 in Resources */,
+				FAC8B94B26FC96B900F4590F /* Dog.wav in Resources */,
+				FAC8B94826FC96B900F4590F /* Sheep.wav in Resources */,
+				FAC8B94E26FC96B900F4590F /* Frog.wav in Resources */,
+				FAC8B94226FC96B900F4590F /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +313,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC8B94626FC96B900F4590F /* Pig.wav in Resources */,
+				FAC8B94026FC96B900F4590F /* Horse.mp3 in Resources */,
+				FAC8B94C26FC96B900F4590F /* Dog.wav in Resources */,
+				FAC8B94926FC96B900F4590F /* Sheep.wav in Resources */,
+				FAC8B94F26FC96B900F4590F /* Frog.wav in Resources */,
+				FAC8B94326FC96B900F4590F /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
