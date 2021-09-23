@@ -16,8 +16,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    //For cat
     NSURL *soundURL1 = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Cat" ofType:@"wav"]];
     AudioServicesCreateSystemSoundID((__bridge CFURLRef)soundURL1, &catID);
+    
+    
+    //For dog
+    NSURL *soundURL2 = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dog" ofType:@"wav"]];
+    AudioServicesCreateSystemSoundID((__bridge CFURLRef)soundURL2, &dogID);
     
 }
 
@@ -35,11 +42,13 @@
 }
 
 - (IBAction)dog:(id)sender {
+    
+    AudioServicesPlaySystemSound(dogID);
+    
 }
 
 - (IBAction)cat:(id)sender {
     
     AudioServicesPlaySystemSound(catID);
-    
 }
 @end
