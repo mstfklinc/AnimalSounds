@@ -30,16 +30,31 @@
     NSURL *soundURL3 = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Frog" ofType:@"wav"]];
     AudioServicesCreateSystemSoundID((__bridge CFURLRef)soundURL3, &frogID);
     
+    //For horse
+    NSURL *soundURL4 = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Horse" ofType:@"mp3"]];
+    AudioServicesCreateSystemSoundID((__bridge CFURLRef)soundURL4, &horseID);
+    
+    //For pig
+    NSURL *soundURL5 = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Pig" ofType:@"wav"]];
+    AudioServicesCreateSystemSoundID((__bridge CFURLRef)soundURL5, &pigID);
+    
+    //For sheep
+    NSURL *soundURL6 = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Sheep" ofType:@"wav"]];
+    AudioServicesCreateSystemSoundID((__bridge CFURLRef)soundURL6, &sheepID);
 }
 
 
 - (IBAction)sheep:(id)sender {
+    AudioServicesPlaySystemSound(sheepID);
 }
 
 - (IBAction)pig:(id)sender {
+    
+    AudioServicesPlaySystemSound(pigID);
 }
 
 - (IBAction)horse:(id)sender {
+    AudioServicesPlaySystemSound(horseID);
 }
 
 - (IBAction)frog:(id)sender {
