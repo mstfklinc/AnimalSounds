@@ -26,6 +26,10 @@
     NSURL *soundURL2 = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dog" ofType:@"wav"]];
     AudioServicesCreateSystemSoundID((__bridge CFURLRef)soundURL2, &dogID);
     
+    //For frog
+    NSURL *soundURL3 = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Frog" ofType:@"wav"]];
+    AudioServicesCreateSystemSoundID((__bridge CFURLRef)soundURL3, &frogID);
+    
 }
 
 
@@ -39,6 +43,9 @@
 }
 
 - (IBAction)frog:(id)sender {
+    
+    AudioServicesPlaySystemSound(frogID);
+    
 }
 
 - (IBAction)dog:(id)sender {
